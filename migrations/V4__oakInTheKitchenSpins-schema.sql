@@ -1,0 +1,1 @@
+UPDATE SlotGame SET SpinsTotal=34 WHERE ID=7;

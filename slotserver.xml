@@ -1,0 +1,99 @@
+<configuration>
+                     <!--Data relating to how time information from the server will be formatted-->
+                     <displayTime>
+                            <offset>-07:00</offset>
+                            <timezone>PST</timezone>
+                     </displayTime>
+
+                     <!--This is the time (relative to GMT) that the database is considered to operate on-->
+                     <dbTimeOffset>-08:00</dbTimeOffset>
+	<port>1337</port>
+	
+	<!--Show all server and client messages in console-->
+	<debug>true</debug>
+
+	<!--Insert all game data into the database-->
+	<logDebug>false</logDebug>
+
+	<!--If the server requires players have a valid token DEBUGGING ONLY-->
+	<requireToken>false</requireToken>
+	
+	<!--Allow players to send cheat codes, not in PROD!-->
+	<allowCheat>true</allowCheat>
+	
+	<!--Base URL of all slots assets, this will be prepended to slot files-->
+	<assetBaseUrl>https://s3-us-west-1.amazonaws.com/us-west-slot</assetBaseUrl>
+	
+	<!--Change to "Y" to turn on manual crypto, the key is just any password 8 chars-->
+	<crypto>
+		<on>N</on>
+		<method>des-ecb</method>
+		<key>r0berTaX</key>
+	</crypto>
+	
+        <poolConnectionLimit>2</poolConnectionLimit>
+	
+		<mySQL>
+			<ID>-1</ID>
+			<readWrite>
+				<host>kizzang-dev-slot.camw8exvgwjh.us-east-1.rds.amazonaws.com</host>
+				<port>3306</port>
+				<user>ksdevslot</user>
+				<password>LjU4JPfNf9Fs</password>
+				<database>kizzangslot</database>
+			</readWrite>
+			<readOnly>
+				<host>kizzang-dev-slot.camw8exvgwjh.us-east-1.rds.amazonaws.com</host>
+				<port>3306</port>
+				<user>ksdevslot</user>
+				<password>LjU4JPfNf9Fs</password>
+				<database>kizzangslot</database>
+			</readOnly>
+		</mySQL>
+		<mySQL>
+			<ID>0</ID>
+			<readWrite>
+				<host>kizzang-dev-slot.camw8exvgwjh.us-east-1.rds.amazonaws.com</host>
+				<port>3306</port>
+				<user>ksdevslot</user>
+				<password>LjU4JPfNf9Fs</password>
+				<database>kizzangslot</database>
+			</readWrite>
+			<readOnly>
+				<host>kizzang-dev-slot.camw8exvgwjh.us-east-1.rds.amazonaws.com</host>
+				<port>3306</port>
+				<user>ksdevslot</user>
+				<password>LjU4JPfNf9Fs</password>
+				<database>kizzangslot</database>
+			</readOnly>
+		</mySQL>
+
+	<!--Special password required to delete tournaments-->
+	<accessPass>qwf5ef46qf61q6f48adfe681g</accessPass>
+
+	<!--If we require a host name check for access to backdoor functions SET TO TRUE FOR PRODUCTION-->
+	<reqHostNameCheck>false</reqHostNameCheck>
+
+    <!--If we require that API calls succeed-->
+	<reqAPICall>false</reqAPICall>
+
+	<!--The originating hostname required for requests to backdoor functions-->
+	<backdoorHostName>internal-development-main-api-a-elb-int-202051802.us-east-1.elb.amazonaws.com</backdoorHostName>
+
+	<!--Connections for the memcached database
+		Multiple memcached connections are supported. Simply add additional
+		hosts identified as conn-->
+	<memcached>
+		<conn>dev-slot-memc-micro.p2nejy.cfg.use1.cache.amazonaws.com</conn>
+	</memcached>
+
+	<!--Connections for the Redis database
+		Only one Redis server connection is supported at this time-->
+	<redis>
+		<ip>dev-micro-slot-redis.p2nejy.0001.use1.cache.amazonaws.com</ip>
+		<port>6379</port>
+	</redis>
+
+	<revision>f85faa682950ab88ce7edbb7b35064c86946bf5f</revision>
+
+</configuration>

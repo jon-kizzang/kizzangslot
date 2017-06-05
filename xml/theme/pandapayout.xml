@@ -1,0 +1,61 @@
+﻿<theme id="pandapayout"> <!--Unused attributes-->
+	<name>Panda Payout</name>
+
+	<!--Client loads game graphics, animations, sound from here-->
+	<!--If you send saveAssets==true the ZIP file will be stored on device after download-->
+	<!--Change the "0" to another number to update the users saved ZIP-->
+	<assets>
+		<asset>
+			<id>slot</id> <!--Should just be "slot" for now -->
+			<file>pandapayout.0.zip</file> <!--Client will prefix this file with SlotRoot.assetBaseUrl-->
+		</asset>
+	</assets>
+	
+	<!--This will be the client feathers screen-->
+	<screen>GamePandaPayout</screen> 
+	
+	<!--Make slight adjustments to the layout-->
+	<logoAdjustX>0</logoAdjustX>
+	<logoAdjustY>-28</logoAdjustY>
+	<meterTextSize>20</meterTextSize>
+	<meterSpinAdjustX>0</meterSpinAdjustX>
+	<meterSpinAdjustY>0</meterSpinAdjustY>
+	<meterTimeAdjustX>0</meterTimeAdjustX>
+	<meterTimeAdjustY>0</meterTimeAdjustY>
+	<meterWinAdjustX>0</meterWinAdjustX>
+	<meterWinAdjustY>0</meterWinAdjustY>
+	<meterTotalAdjustX>0</meterTotalAdjustX>
+	<meterTotalAdjustY>0</meterTotalAdjustY>
+	<meterBonusFont>font_bonus</meterBonusFont>
+	<meterBonusFontSize>80</meterBonusFontSize>
+	<meterBonusSuffix></meterBonusSuffix>
+	<meterBonusAdjustX>-8</meterBonusAdjustX>
+	<meterBonusAdjustY>-105</meterBonusAdjustY>
+	<meterPopupFont>font_bonus</meterPopupFont>
+	<meterPopupTextSize>60</meterPopupTextSize>
+	<meterPopupAdjustX>0</meterPopupAdjustX>
+	<meterPopupAdjustY>30</meterPopupAdjustY>
+	
+	<!--Reel spinning speed adjustments-->
+	<reels>
+		<symbolWidth>121</symbolWidth>
+		<symbolHeight>121</symbolHeight>
+		<rampPercent>0.25</rampPercent> <!--How much to ramp start and stop in relation to symbol height-->
+		<rampSeconds>0.25</rampSeconds> <!--How long to travel ramp-->
+		<speedRowsPercent>3</speedRowsPercent> <!--Travel speed of reels as a percent of total rows in a window-->
+	</reels>
+	
+	<!--Highlighting player wins adjust speeds-->
+	<highlights>
+		<highlightDelay>2.1</highlightDelay> <!--Delay for showing 1 highlight or symbol aniamtion-->
+		<highlightTween>0.25</highlightTween> <!--Delay between highlighting wins-->
+		<rollupMaxSeconds>3</rollupMaxSeconds> <!--Basically how long the loop sound takes to finish should be atleast 10 seconds-->
+	</highlights>
+	
+</theme>
+
+
+
+
+
+

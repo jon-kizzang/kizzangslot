@@ -1,0 +1,95 @@
+<math id="paymentpanic">
+  <typeMethod>Lines</typeMethod>
+  <typeDirection>Normal</typeDirection>
+  <typeCascading>N</typeCascading>
+  <reels>6</reels>
+  <rows>4</rows>
+  <denomList>1,2,5,10,25,50,100,1000</denomList>
+  <denomDefault>1</denomDefault>
+  <coinList>1,2,5,10,25,50,100,1000</coinList>
+  <coinDefault>1</coinDefault>
+  <pickBags>1500,1750,1500,1250,1000,1300,500,250,900,1750,1500,1250,1000,1850,1950,250,0</pickBags>
+  <pickBandits>2,3,5</pickBandits>
+  <pickSecsAdded>60</pickSecsAdded>
+  <minGameTotal>8000000</minGameTotal>
+  <maxGameTotal>28000000</maxGameTotal>
+  <avgGameTotal>15500000</avgGameTotal>
+  <maxBonusGamesHits>3</maxBonusGamesHits>
+  <bonusGameNoHitSpins>1,2</bonusGameNoHitSpins>
+  <minSingleSpinAmount>10000</minSingleSpinAmount>
+  <maxSingleSpinAmount>5000001</maxSingleSpinAmount>
+  <stripGroup id="base" reels="6" rows="4">
+    <strip symbols="P5,P3,P7,P5,P6,P3,P4,P2,P5,P4,P7,P2,P7,P3,P6,P6,P1,P3,P6,P7,P3,P5,P1,P2,P4,P7,P4,W,P7,P7,P6,P5,P5,S,P1,P6,P3,P2,P4,P4,P1,P6,P2,P5,P5,P5,P1,P6,P1,P1,P7,P7,S,P4,P6,P2,P6,P2,P4,P5,P3,W,P2,S,P4,P3,P4,W,P7,P3"/>
+    <strip symbols="P2,P7,S,P3,P5,P1,P7,P7,P3,P7,P2,P5,P7,P5,P4,P5,P6,W,P1,P3,P6,P3,P4,P3,P6,P5,P1,P4,P6,P1,P4,P2,P5,P3,S,P4,P2,W,P6,P5,P1,P7,P3,P2,P3,P6,P2,P7,P5,P4,P6,P1,P1,S,P4,P2,P7,P6,P6,P5,P4,P3,P2,P7,W,P7,P6,P4,P4,P5"/>
+    <strip symbols="P6,W,P7,P7,P4,P2,P3,P4,P5,P4,P7,P2,P3,S,P3,P1,P1,P4,P3,P3,P5,P5,P3,P1,P3,P4,S,P6,P4,P6,P4,P6,P2,P2,P2,P7,P5,P2,P6,P4,P1,P3,P5,P5,P5,P2,P7,P6,P5,P1,P3,P2,W,W,P4,P6,P5,P4,P7,P7,P7,P6,P6,P7,P7,P1,S,P5,P1,P6"/>
+    <strip symbols="P1,P1,P6,P2,P7,P5,P2,S,P7,P6,P6,P5,P3,P2,P1,P4,P1,P5,P3,P3,P7,P3,P3,P6,S,P5,P3,P6,P5,P6,P4,P2,P4,P1,P5,P4,P4,P3,P3,P4,P4,P7,S,P6,P6,P6,P1,P3,P2,P2,P5,P4,P1,P5,W,P7,P7,P7,P4,P7,W,P2,P2,P7,W,P5,P4,P7,P5,P6"/>
+    <strip symbols="P4,P1,P1,P6,W,P6,P7,P3,P6,P3,P7,P7,P6,P3,P7,P4,P2,P7,P4,W,P2,P4,S,P4,P4,P4,P2,P1,P5,P4,P5,P3,P6,P7,P2,P6,P6,P5,S,P4,P3,P6,P5,P3,P1,P1,P4,P5,P5,S,P1,P5,P7,P5,P7,P2,P1,P2,P3,P6,W,P2,P3,P2,P5,P7,P5,P3,P6,P7"/>
+    <strip symbols="Px5,Pd,Px0,Px0,Px0,Px0,Px0,Px0,Px3,Px5,Px2,Px0,Px3,Px3,Px0,Px0,Px0,Px0,Px0,Px0,Px0,Px2,Px2,Px0,Px0,Px0,Px2,Px0,Px0,Px0,Px0,Px0,Px0,Pd,Px0,Px0,B,Px0,Px0,Px0"/>
+  </stripGroup>
+  <symbolGroup id="base">
+    <symbol id="P1" wild="N" scatter="N" mx="1" pays="0,0,212000,232000,262000,292000"/>
+    <symbol id="P2" wild="N" scatter="N" mx="1" pays="0,0,202000,227000,252000,282000"/>
+    <symbol id="P3" wild="N" scatter="N" mx="1" pays="0,0,192000,217000,242000,272000"/>
+    <symbol id="P4" wild="N" scatter="N" mx="1" pays="0,0,182000,207000,222000,247000"/>
+    <symbol id="P5" wild="N" scatter="N" mx="1" pays="0,0,172000,192000,217000,247000"/>
+    <symbol id="P6" wild="N" scatter="N" mx="1" pays="0,0,162000,182000,202000,232000"/>
+    <symbol id="P7" wild="N" scatter="N" mx="1" pays="0,0,152000,177000,197000,217000"/>
+    <symbol id="S" wild="N" scatter="Y" mx="1" pays="0,0,10000,10000,10000,10000"/>
+    <symbol id="B" wild="N" scatter="Y" mx="1" pays="0,0,10000,0,0"/>
+    <symbol id="W" wild="Y" scatter="N" mx="1" pays="0,0,0,0,0"/>
+    <symbol id="Pd" wild="N" scatter="N" mx="1" pays="0,0,0,0,0"/>
+    <symbol id="Px0" wild="N" scatter="N" mx="1" pays="0,0,0,0,0"/>
+    <symbol id="Px2" wild="N" scatter="N" mx="1" pays="0,0,0,0,0"/>
+    <symbol id="Px3" wild="N" scatter="N" mx="1" pays="0,0,0,0,0"/>
+    <symbol id="Px5" wild="N" scatter="N" mx="1" pays="0,0,0,0,0"/>
+  </symbolGroup>
+  <lineGroup id="base" reels="5" rows="4">
+    <line id="1" rows="3,3,4,3,3,1"/>
+    <line id="2" rows="2,2,3,2,2,1"/>
+    <line id="3" rows="1,1,2,1,1,1"/>
+    <line id="4" rows="2,2,1,2,2,1"/>
+    <line id="5" rows="3,3,2,3,3,1"/>
+    <line id="6" rows="4,4,3,4,4,1"/>
+    <line id="7" rows="2,3,4,4,4,1"/>
+    <line id="8" rows="1,2,3,3,3,1"/>
+    <line id="9" rows="4,3,2,2,2,1"/>
+    <line id="10" rows="3,2,1,1,1,1"/>
+    <line id="11" rows="1,1,1,2,3,1"/>
+    <line id="12" rows="2,2,2,3,4,1"/>
+    <line id="13" rows="3,3,3,2,1,1"/>
+    <line id="14" rows="4,4,4,3,2,1"/>
+    <line id="15" rows="2,3,4,3,2,1"/>
+    <line id="16" rows="1,2,3,2,1,1"/>
+    <line id="17" rows="3,2,1,2,3,1"/>
+    <line id="18" rows="4,3,2,3,4,1"/>
+    <line id="19" rows="2,1,2,1,2,1"/>
+    <line id="20" rows="3,2,3,2,3,1"/>
+    <line id="21" rows="4,3,4,3,4,1"/>
+    <line id="22" rows="1,2,1,2,1,1"/>
+    <line id="23" rows="2,3,2,3,2,1"/>
+    <line id="24" rows="3,4,3,4,3,1"/>
+    <line id="25" rows="1,1,2,3,4,1"/>
+    <line id="26" rows="4,4,3,2,1,1"/>
+    <line id="27" rows="4,3,2,1,1,1"/>
+    <line id="28" rows="1,2,3,4,4,1"/>
+    <line id="29" rows="1,1,1,1,1,1"/>
+    <line id="30" rows="2,2,2,2,2,1"/>
+    <line id="31" rows="3,3,3,3,3,1"/>
+    <line id="32" rows="4,4,4,4,4,1"/>
+    <line id="33" rows="2,3,3,3,4,1"/>
+    <line id="34" rows="1,2,2,2,3,1"/>
+    <line id="35" rows="4,3,3,3,2,1"/>
+    <line id="36" rows="3,2,2,2,1,1"/>
+  </lineGroup>
+  <probabilityGroup id="base">
+    <probability id="pickBandit">
+      <range weight="1" value="2"/>
+      <range weight="1" value="3"/>
+      <range weight="1" value="5"/>
+    </probability>
+  </probabilityGroup>
+  <bonusSymbolReels>6</bonusSymbolReels>
+  <onlyBonusSymbolsOnBonusReels>true</onlyBonusSymbolsOnBonusReels>
+  <bonusSymbols>B,Pd,Px0,Px2,Px3,Px5</bonusSymbols>
+  <bonusSymbolSpacing>2</bonusSymbolSpacing>
+</math>

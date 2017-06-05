@@ -1,0 +1,130 @@
+<math id="angrychefs"> <!--Unused attributes-->
+    <typeMethod>Lines</typeMethod> <!--AllPays,Lines-->
+    <typeDirection>Normal</typeDirection> <!--Normal,TwoWay-->
+    <typeCascading>N</typeCascading> <!--Use cascading reels?-->
+    <reels>5</reels>
+    <rows>3</rows>
+    <denomList>1,2,5,10,25,50,100,1000</denomList> <!--Denom of the game-->
+    <denomDefault>1</denomDefault>
+    <coinList>1,2,5,10,25,50,100,1000</coinList> <!--Bet multipliers, each one is multiplied by the betDenom-->
+    <coinDefault>1</coinDefault>
+    <fsSpinsTotal>7</fsSpinsTotal> <!--Free spins total-->
+    <fsSecsAdded>60</fsSecsAdded> <!--Added seconds-->
+    <fsMxTotal>1</fsMxTotal> <!--Free spins multiplier-->
+    <bonusList>c1,c1,c1,c2,c2,c2,c1,c3,c3,c2,c4,c4,2,3,5</bonusList> <!-- Bonus list for Bonus Round Match three -->
+    <pickSecsAdded>60</pickSecsAdded> <!--Added seconds-->
+    <avgWinDynamicPoints>0,0,0,00</avgWinDynamicPoints>
+    <minGameTotal>2425000</minGameTotal>
+    <maxGameTotal>5525000</maxGameTotal>
+    <avgGameTotal>3800000</avgGameTotal>
+    <maxBonusGamesHits>4</maxBonusGamesHits>
+    <bonusGameNoHitSpins>1,2</bonusGameNoHitSpins>
+    <minSingleSpinAmount>10000</minSingleSpinAmount>
+    <maxSingleSpinAmount>5000001</maxSingleSpinAmount>
+    
+	<stripGroup id="base" reels="5" rows="3">
+		<strip symbols="P2,P7,P1,P5,B,P5,P4,P4,S,P2,B,P1,P6,P4,P7,W,P2,P6,P5,P3,B,P7,P5,P2,P2,P3,P6,P3,P6,B,P1,P7,P4,P4,P1,S,P3,P3,W,P5,P7,P1,P6"/>
+		<strip symbols="P6,P6,P7,P1,P6,P3,P4,P2,P3,P7,P7,P4,S,P5,P7,P1,P4,P7,P1,P2,P3,P4,P5,S,P3,P2,P6,P5,W,P6,P2,P1,P1,W,P5,P3,P4,P2,P5"/>
+		<strip symbols="S,S,P5,P2,P3,P6,P2,B,P1,P1,P2,W,B,P6,P3,P4,P5,P6,P7,P1,P4,P5,P7,P6,P1,P4,P5,P3,P5,P7,P3,P2,P1,P7,P7,B,P4,P3,P4,P2,P6,B,W"/>
+		<strip symbols="P2,P1,P5,P7,W,P1,P2,P4,P7,P2,P5,P1,P3,P4,P4,P4,P1,P3,P6,P5,P3,P7,S,P7,P3,P5,S,P6,P7,W,P5,P6,P1,P3,P4,P2,P6,P6,P2"/>
+		<strip symbols="S,P3,W,P7,P5,P4,B,P7,P2,P6,P2,B,P4,P2,B,P2,P4,P1,P6,P1,P3,P5,P7,W,P6,P6,S,P1,P5,P7,P3,P1,P3,P2,P6,P3,P5,P5,P7,B,P4,P4,P1"/>
+	</stripGroup>
+
+	<stripGroup id="base1" reels="5" rows="3">
+		<strip symbols="P2,P7,P1,P5,B,P5,P4,P4,S,P2,B,P1,P6,P4,P7,W,P2,P6,P5,P3,B,P7,P5,P2,P2,P3,P6,P3,P6,B,P1,P7,P4,P4,P1,S,P3,P3,W,P5,P7,P1,P6"/>
+		<strip symbols="P6,P6,P7,P1,P6,P3,P4,P2,P3,P7,P7,P4,S,P5,P7,P1,P4,P7,P1,P2,P3,P4,P5,S,P3,P2,P6,P5,W,P6,P2,P1,P1,W,P5,P3,P4,P2,P5"/>
+		<strip symbols="S,S,P5,P2,P3,P6,P2,B,P1,P1,P2,W,B,P6,P3,P4,P5,P6,P7,P1,P4,P5,P7,P6,P1,P4,P5,P3,P5,P7,P3,P2,P1,P7,P7,B,P4,P3,P4,P2,P6,B,W"/>
+		<strip symbols="P2,P1,P5,P7,W,P1,P2,P4,P7,P2,P5,P1,P3,P4,P4,P4,P1,P3,P6,P5,P3,P7,S,P7,P3,P5,S,P6,P7,W,P5,P6,P1,P3,P4,P2,P6,P6,P2"/>
+		<strip symbols="S,P3,W,P7,P5,P4,B,P7,P2,P6,P2,B,P4,P2,B,P2,P4,P1,P6,P1,P3,P5,P7,W,P6,P6,S,P1,P5,P7,P3,P1,P3,P2,P6,P3,P5,P5,P7,B,P4,P4,P1"/>
+	</stripGroup>
+
+	<stripGroup id="base2" reels="5" rows="3">
+		<strip symbols="P2,P7,P1,P5,B,P5,P4,P4,S,P2,B,P1,P6,P4,P7,W,P2,P6,P5,P3,B,P7,P5,P2,P2,P3,P6,P3,P6,B,P1,P7,P4,P4,P1,S,P3,P3,W,P5,P7,P1,P6"/>
+		<strip symbols="P6,P6,P7,P1,P6,P3,P4,P2,P3,P7,P7,P4,S,P5,P7,P1,P4,P7,P1,P2,P3,P4,P5,S,P3,P2,P6,P5,W,P6,P2,P1,P1,W,P5,P3,P4,P2,P5"/>
+		<strip symbols="S,S,P5,P2,P3,P6,P2,B,P1,P1,P2,W,B,P6,P3,P4,P5,P6,P7,P1,P4,P5,P7,P6,P1,P4,P5,P3,P5,P7,P3,P2,P1,P7,P7,B,P4,P3,P4,P2,P6,B,W"/>
+		<strip symbols="P2,P1,P5,P7,W,P1,P2,P4,P7,P2,P5,P1,P3,P4,P4,P4,P1,P3,P6,P5,P3,P7,S,P7,P3,P5,S,P6,P7,W,P5,P6,P1,P3,P4,P2,P6,P6,P2"/>
+		<strip symbols="S,P3,W,P7,P5,P4,B,P7,P2,P6,P2,B,P4,P2,B,P2,P4,P1,P6,P1,P3,P5,P7,W,P6,P6,S,P1,P5,P7,P3,P1,P3,P2,P6,P3,P5,P5,P7,B,P4,P4,P1"/>
+	</stripGroup>
+
+	<stripGroup id="base3" reels="5" rows="3">
+		<strip symbols="P2,P7,P1,P5,B,P5,P4,P4,S,P2,B,P1,P6,P4,P7,W,P2,P6,P5,P3,B,P7,P5,P2,P2,P3,P6,P3,P6,B,P1,P7,P4,P4,P1,S,P3,P3,W,P5,P7,P1,P6"/>
+		<strip symbols="P6,P6,P7,P1,P6,P3,P4,P2,P3,P7,P7,P4,S,P5,P7,P1,P4,P7,P1,P2,P3,P4,P5,S,P3,P2,P6,P5,W,P6,P2,P1,P1,W,P5,P3,P4,P2,P5"/>
+		<strip symbols="S,S,P5,P2,P3,P6,P2,B,P1,P1,P2,W,B,P6,P3,P4,P5,P6,P7,P1,P4,P5,P7,P6,P1,P4,P5,P3,P5,P7,P3,P2,P1,P7,P7,B,P4,P3,P4,P2,P6,B,W"/>
+		<strip symbols="P2,P1,P5,P7,W,P1,P2,P4,P7,P2,P5,P1,P3,P4,P4,P4,P1,P3,P6,P5,P3,P7,S,P7,P3,P5,S,P6,P7,W,P5,P6,P1,P3,P4,P2,P6,P6,P2"/>
+		<strip symbols="S,P3,W,P7,P5,P4,B,P7,P2,P6,P2,B,P4,P2,B,P2,P4,P1,P6,P1,P3,P5,P7,W,P6,P6,S,P1,P5,P7,P3,P1,P3,P2,P6,P3,P5,P5,P7,B,P4,P4,P1"/>
+	</stripGroup>
+
+	<stripGroup id="base4" reels="5" rows="3">
+		<strip symbols="P2,P7,P1,P5,B,P5,P4,P4,S,P2,B,P1,P6,P4,P7,W,P2,P6,P5,P3,B,P7,P5,P2,P2,P3,P6,P3,P6,B,P1,P7,P4,P4,P1,S,P3,P3,W,P5,P7,P1,P6"/>
+		<strip symbols="P6,P6,P7,P1,P6,P3,P4,P2,P3,P7,P7,P4,S,P5,P7,P1,P4,P7,P1,P2,P3,P4,P5,S,P3,P2,P6,P5,W,P6,P2,P1,P1,W,P5,P3,P4,P2,P5"/>
+		<strip symbols="S,S,P5,P2,P3,P6,P2,B,P1,P1,P2,W,B,P6,P3,P4,P5,P6,P7,P1,P4,P5,P7,P6,P1,P4,P5,P3,P5,P7,P3,P2,P1,P7,P7,B,P4,P3,P4,P2,P6,B,W"/>
+		<strip symbols="P2,P1,P5,P7,W,P1,P2,P4,P7,P2,P5,P1,P3,P4,P4,P4,P1,P3,P6,P5,P3,P7,S,P7,P3,P5,S,P6,P7,W,P5,P6,P1,P3,P4,P2,P6,P6,P2"/>
+		<strip symbols="S,P3,W,P7,P5,P4,B,P7,P2,P6,P2,B,P4,P2,B,P2,P4,P1,P6,P1,P3,P5,P7,W,P6,P6,S,P1,P5,P7,P3,P1,P3,P2,P6,P3,P5,P5,P7,B,P4,P4,P1"/>
+	</stripGroup>
+
+	<stripGroup id="base5" reels="5" rows="3">
+		<strip symbols="P2,P7,P1,P5,B,P5,P4,P4,S,P2,B,P1,P6,P4,P7,W,P2,P6,P5,P3,B,P7,P5,P2,P2,P3,P6,P3,P6,B,P1,P7,P4,P4,P1,S,P3,P3,W,P5,P7,P1,P6"/>
+		<strip symbols="P6,P6,P7,P1,P6,P3,P4,P2,P3,P7,P7,P4,S,P5,P7,P1,P4,P7,P1,P2,P3,P4,P5,S,P3,P2,P6,P5,W,P6,P2,P1,P1,W,P5,P3,P4,P2,P5"/>
+		<strip symbols="S,S,P5,P2,P3,P6,P2,B,P1,P1,P2,W,B,P6,P3,P4,P5,P6,P7,P1,P4,P5,P7,P6,P1,P4,P5,P3,P5,P7,P3,P2,P1,P7,P7,B,P4,P3,P4,P2,P6,B,W"/>
+		<strip symbols="P2,P1,P5,P7,W,P1,P2,P4,P7,P2,P5,P1,P3,P4,P4,P4,P1,P3,P6,P5,P3,P7,S,P7,P3,P5,S,P6,P7,W,P5,P6,P1,P3,P4,P2,P6,P6,P2"/>
+		<strip symbols="S,P3,W,P7,P5,P4,B,P7,P2,P6,P2,B,P4,P2,B,P2,P4,P1,P6,P1,P3,P5,P7,W,P6,P6,S,P1,P5,P7,P3,P1,P3,P2,P6,P3,P5,P5,P7,B,P4,P4,P1"/>
+	</stripGroup>
+
+    <symbolGroup id="base">
+        <symbol id="P1" wild="N" scatter="N" mx="1" pays="0,0,190000,247500,285000"/>
+        <symbol id="P2" wild="N" scatter="N" mx="1" pays="0,0,180000,235000,270000"/>
+        <symbol id="P3" wild="N" scatter="N" mx="1" pays="0,0,170000,222500,255000"/>
+        <symbol id="P4" wild="N" scatter="N" mx="1" pays="0,0,160000,210000,240000"/>
+        <symbol id="P5" wild="N" scatter="N" mx="1" pays="0,0,150000,197500,225000"/>
+        <symbol id="P6" wild="N" scatter="N" mx="1" pays="0,0,140000,185000,210000"/>
+        <symbol id="P7" wild="N" scatter="N" mx="1" pays="0,0,130000,172500,195000"/>
+        <symbol id="S" wild="N" scatter="Y" mx="1" pays="0,0,50000,150000,250000"/>
+        <symbol id="B" wild="N" scatter="Y" mx="1" pays="0,0,10000,0,0"/>
+        <symbol id="W" wild="Y" scatter="N" mx="1" pays="0,0,0,0,0"/>
+    </symbolGroup>
+    
+    <lineGroup id="base" reels="5" rows="3">
+        <line id="1" rows="2,2,2,2,2"/>
+        <line id="2" rows="1,1,1,1,1"/>
+        <line id="3" rows="3,3,3,3,3"/>
+        <line id="4" rows="1,2,3,2,1"/>
+        <line id="5" rows="3,2,1,2,3"/>
+        <line id="6" rows="1,1,2,3,3"/>
+        <line id="7" rows="3,3,2,1,1"/>
+        <line id="8" rows="2,1,2,3,2"/>
+        <line id="9" rows="2,3,2,1,2"/>
+        <line id="10" rows="1,2,2,2,3"/>
+        <line id="11" rows="3,2,2,2,1"/>
+        <line id="12" rows="2,1,1,1,2"/>
+        <line id="13" rows="2,3,3,3,2"/>
+        <line id="14" rows="2,1,1,2,3"/>
+        <line id="15" rows="2,3,3,2,1"/>
+        <line id="16" rows="3,2,1,1,2"/>
+        <line id="17" rows="1,2,3,3,2"/>
+        <line id="18" rows="1,2,1,2,1"/>
+        <line id="19" rows="3,2,3,2,3"/>
+        <line id="20" rows="2,1,2,1,2"/>
+        <line id="21" rows="2,3,2,3,2"/>
+        <line id="22" rows="3,2,1,1,1"/>
+        <line id="23" rows="1,2,3,3,3"/>
+        <line id="24" rows="1,1,1,2,3"/>
+        <line id="25" rows="3,3,3,2,1"/>
+    </lineGroup>
+    
+    <probabilityGroup id="base">
+        <probability id="unused">
+            <range weight="25" value="1"/>
+            <range weight="25" value="2"/>
+            <range weight="25" value="3"/>
+            <range weight="25" value="4"/>
+        </probability>
+    </probabilityGroup>	
+    
+    <bonusGroupPayout id="base">
+        <payout name="c1" match="3" value="800000" />
+        <payout name="c2" match="3" value="700000" />
+        <payout name="c3" match="3" value="600000" />
+        <payout name="c4" match="3" value="500000" />
+    </bonusGroupPayout>
+    
+</math>

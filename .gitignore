@@ -1,0 +1,18 @@
+# .gitignore for Kizzang Slot Server
+*.DS_Store
+
+# Reqirements
+node_modules/
+
+# Translated Javascript (for debugging)
+JSOut/
+
+# Testing data
+test/testData/
+
+# Files for local testing an development
+localOnly/
+
+# VS Code settings
+.vscode/
+nbproject/

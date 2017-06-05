@@ -1,0 +1,61 @@
+<math id="fatcat7">
+  <typeMethod>Lines</typeMethod>
+  <typeDirection>Normal</typeDirection>
+  <typeCascading>N</typeCascading>
+  <reels>3</reels>
+  <rows>3</rows>
+  <denomList>1,2,5,10,25,50,100,1000</denomList>
+  <denomDefault>1</denomDefault>
+  <coinList>1,2,5,10,25,50,100,1000</coinList>
+  <coinDefault>1</coinDefault>
+  <fsSpinsTotal>5</fsSpinsTotal>
+  <fsSecsAdded>30</fsSecsAdded>
+  <fsMxTotal>1</fsMxTotal>
+  <avgWinDynamicPoints>0,0,0,0</avgWinDynamicPoints>
+  <minGameTotal>1425000</minGameTotal>
+  <maxGameTotal>5125000</maxGameTotal>
+  <avgGameTotal>2800000</avgGameTotal>
+  <maxBonusGamesHits>3</maxBonusGamesHits>
+  <bonusGameNoHitSpins>1,2</bonusGameNoHitSpins>
+  <minSingleSpinAmount>10000</minSingleSpinAmount>
+  <maxSingleSpinAmount>3000001</maxSingleSpinAmount>
+  <stripGroup id="base" reels="3" rows="3">
+    <strip symbols="W,P5,P4,P7,P3,P4,P6,W,P2,P7,P3,P4,P6,P5,P6,P6,P7,P4,P4,P2,P5,B,P5,P1,P3,B,P1,P4,P7,P3,P2,B,P5,P1,P3,P6,W,P1,P4,P5,P3,P2,P7,B,P4,P7,B,P1,P7,P3,P2,P1,P2,P2,P1,P4,P1,P6,W,P2,P6,P2,P5,P5,P2,P1,P6,P4,P7,P7,P6,P7,P3,P3,P1,P5,B,P3,P5,P6"/>
+    <strip symbols="P1,P2,B,P3,P7,P5,P3,P6,P4,B,P5,P5,P6,P3,P1,P1,P6,P1,P6,P2,P5,P3,P2,P2,P1,P7,P6,P5,P1,W,P4,W,P5,P5,P4,P4,P6,P4,P3,P1,P3,P3,P7,P6,P3,P7,P1,P7,P4,P1,P7,P2,P7,P6,P4,P2,P2,B,P7,P2,P2,P5,P4,P7,P6,P6,P4,B,P5,P7,P4,P5,B,P2,W,P3,P3,P1,B,W"/>
+    <strip symbols="P3,P7,P3,P1,P5,B,P4,W,P3,W,P7,P6,P4,P6,P7,P6,B,P2,P2,P2,P3,P1,P3,P2,P7,P5,P7,P2,P5,P5,P5,P4,P6,P7,P6,P5,P6,P6,P3,P4,P6,P1,B,P7,P3,P2,P4,P5,P3,P2,P2,B,P1,P7,P7,P5,P4,P4,P2,P3,P5,B,P1,P6,P2,P6,P3,P1,P1,P4,P4,P1,W,W,P4,P1,P5,P1,P7,B"/>
+  </stripGroup>
+  <stripGroup id="bonus" reels="3" rows="3">
+    <strip symbols="P1,P3,P5,P5,P7,W,P7,P3,P6,P7,P2,P3,P4,P6,P2,P1,P1,P5,P3,P7,P6,P2,P2,P6,P3,P5,P4,P5,P6,P5,P2,P1,P3,P2,P4,P6,P6,P1,P5,P1,W3,P4,W4,P4,P1,P4,P6,P5,P4,P5,P2,P3,P3,W2,P1,P3,P4,P2,P4,P5,P7,P1,P2,P4,P3,P6,P7,P7,P7,P1,P7,P6,P7,P2"/>
+    <strip symbols="P1,P4,P1,P4,P7,P3,P2,P1,P6,P2,P1,P6,P1,P6,P3,P4,P3,P4,P7,P6,W4,P6,P5,P6,W2,P5,P5,P2,P3,P4,P6,P1,P4,P5,P3,P1,P6,P7,P4,P3,P7,P4,P7,P3,P3,P6,P5,P4,P3,P3,P7,P2,P1,P2,P5,P5,P2,P4,P2,P6,P1,P1,P2,P5,P5,P7,P7,P5,W,P2,P7,P2,W3,P7"/>
+    <strip symbols="P7,P1,P7,P4,P7,P7,P6,P6,P3,W3,P6,P5,P4,P3,P6,P2,P5,P1,P2,P1,P7,P6,W2,P6,P4,P1,P4,P6,P5,W,P7,P4,P4,P2,P6,P3,P3,P6,P5,P1,P5,P3,P5,P7,P2,P5,P3,P4,P5,P3,P1,P3,P2,P4,P1,P2,P4,P3,P5,P2,P2,P7,P2,P7,P3,P4,P5,P1,W4,P1,P7,P2,P1,P6"/>
+  </stripGroup>
+  <symbolGroup id="base">
+    <symbol id="P7" wild="N" scatter="N" mx="1" pays="0,0,175000,0,0"/>
+    <symbol id="P6" wild="N" scatter="N" mx="1" pays="0,0,225000,0,0"/>
+    <symbol id="P5" wild="N" scatter="N" mx="1" pays="0,0,275000,0,0"/>
+    <symbol id="P4" wild="N" scatter="N" mx="1" pays="0,0,325000,0,0"/>
+    <symbol id="P3" wild="N" scatter="N" mx="1" pays="0,0,375000,0,0"/>
+    <symbol id="P2" wild="N" scatter="N" mx="1" pays="0,0,425000,0,0"/>
+    <symbol id="P1" wild="N" scatter="N" mx="1" pays="0,0,475000,0,0"/>
+    <symbol id="W" wild="Y" scatter="N" mx="1" pays="0,0,0,0,0"/>
+    <symbol id="W2" wild="Y" scatter="N" mx="1" pays="0,0,0,0,0"/>
+    <symbol id="W3" wild="Y" scatter="N" mx="1" pays="0,0,0,0,0"/>
+    <symbol id="W4" wild="Y" scatter="N" mx="1" pays="0,0,0,0,0"/>
+    <symbol id="W5" wild="Y" scatter="N" mx="1" pays="0,0,0,0,0"/>
+    <symbol id="B" wild="N" scatter="Y" mx="1" pays="0,0,10000,0,0"/>
+    <symbol id="BB" wild="N" scatter="Y" mx="1" pays="0,0,10000,0,0"/>
+  </symbolGroup>
+  <wildMultiplier>
+    <symbol id="W2" multiplier="2"/>
+    <symbol id="W3" multiplier="3"/>
+    <symbol id="W4" multiplier="5"/>
+    <symbol id="W5" multiplier="10"/>
+  </wildMultiplier>
+  <lineGroup id="base" reels="3" rows="3">
+    <line id="1" rows="2,2,2"/>
+    <line id="2" rows="1,1,1"/>
+    <line id="3" rows="3,3,3"/>
+    <line id="4" rows="1,2,3"/>
+    <line id="5" rows="3,2,1"/>
+  </lineGroup>
+</math>

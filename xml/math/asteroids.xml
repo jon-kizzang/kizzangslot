@@ -1,0 +1,102 @@
+<math id="asteroids">
+  <typeMethod>Lines</typeMethod>
+  <typeDirection>Normal</typeDirection>
+  <typeCascading>N</typeCascading>
+  <reels>6</reels>
+  <rows>4</rows>
+  <denomList>1,2,5,10,25,50,100,1000</denomList>
+  <denomDefault>1</denomDefault>
+  <coinList>1,2,5,10,25,50,100,1000</coinList>
+  <coinDefault>1</coinDefault>
+  <minGameTotal>8000000</minGameTotal>
+  <maxGameTotal>28000000</maxGameTotal>
+  <avgGameTotal>15500000</avgGameTotal>
+  <bonusGameNoHitSpins>1,2</bonusGameNoHitSpins>
+  <minSingleSpinAmount>10000</minSingleSpinAmount>
+  <maxSingleSpinAmount>5000001</maxSingleSpinAmount>
+  <maxBonusGamesHits>3</maxBonusGamesHits>
+  <bonusLargeAsteroidMin>4</bonusLargeAsteroidMin>
+  <bonusLargeAsteroidMax>6</bonusLargeAsteroidMax>
+  <bonusMediumAsteroidMaxExtra>3</bonusMediumAsteroidMaxExtra>
+  <bonusSmallAsteroidMaxExtra>2</bonusSmallAsteroidMaxExtra>
+  <bonusStartTime>30</bonusStartTime>
+  <bonusTimeIncrement>10</bonusTimeIncrement>
+  <bonusLargeAsteroidScore>25000</bonusLargeAsteroidScore>
+  <bonusMediumAsteroidScore>50000</bonusMediumAsteroidScore>
+  <bonusSmallAsteroidScore>75000</bonusSmallAsteroidScore>
+  <bonusMaxTimeBonusScore>500000</bonusMaxTimeBonusScore>
+  <bonusSecsAdded>60</bonusSecsAdded>
+  <stripGroup id="base" reels="6" rows="4">
+    <strip symbols="W,P6,P3,W,P5,P16,P11,P9,P1,S,P5,P11,P13,P16,B,P12,P2,P4,P4,P7,P8,P1,P14,P2,P3,P12,P15,P8,P10,P14,P15,P10,P9,P6,P13,P7,B"/>
+    <strip symbols="W,P6,P6,P14,P13,P13,P11,P8,P12,W,P14,P11,P7,B,P16,P1,P4,P3,P9,P2,P5,P4,P15,P7,P9,P5,P2,B,P10,P8,P15,P3,P16,S,P12,P1,P10"/>
+    <strip symbols="P2,P15,P9,P8,B,P8,P2,P4,W,P14,P5,P3,B,P11,P4,P11,P15,P6,P1,P13,P10,P5,P16,P1,B,P16,P13,P14,P12,P12,P3,P6,P9,P7,S,P10,W,P7"/>
+    <strip symbols="P5,P14,P2,P2,W,P4,P5,P4,P15,P10,P16,P12,P15,P12,P3,P13,P6,P11,P3,W,S,P7,P8,P9,P7,P1,P6,P1,P16,P14,P8,P10,P11,P13,P9"/>
+    <strip symbols="P1,P10,P13,P12,P14,P7,P6,P3,P5,P2,P13,P11,P2,P5,P8,P1,P12,P15,P9,P14,P16,P3,S,P4,P15,P4,P9,P11,W,P16,W,P8,P6,P10,P7"/>
+    <strip symbols="P10,P14,P5,P13,P9,P15,P12,P2,P1,P7,P16,P8,P2,P6,P4,P11,P13,P9,W,P15,P11,P3,P7,P8,P10,P4,W,P5,P6,P3,P12,P1,P16,S,P14"/>
+  </stripGroup>
+  <symbolGroup id="base">
+    <symbol id="P1" wild="N" scatter="N" mx="1" pays="0,0,250000,275000,300000,325000"/>
+    <symbol id="P2" wild="N" scatter="N" mx="1" pays="0,0,250000,275000,300000,325000"/>
+    <symbol id="P3" wild="N" scatter="N" mx="1" pays="0,0,250000,275000,300000,325000"/>
+    <symbol id="P4" wild="N" scatter="N" mx="1" pays="0,0,250000,275000,300000,325000"/>
+    <symbol id="P5" wild="N" scatter="N" mx="1" pays="0,0,200000,225000,250000,275000"/>
+    <symbol id="P6" wild="N" scatter="N" mx="1" pays="0,0,200000,225000,250000,275000"/>
+    <symbol id="P7" wild="N" scatter="N" mx="1" pays="0,0,200000,225000,250000,275000"/>
+    <symbol id="P8" wild="N" scatter="N" mx="1" pays="0,0,200000,225000,250000,275000"/>
+    <symbol id="P9" wild="N" scatter="N" mx="1" pays="0,0,150000,175000,200000,225000"/>
+    <symbol id="P10" wild="N" scatter="N" mx="1" pays="0,0,150000,175000,200000,225000"/>
+    <symbol id="P11" wild="N" scatter="N" mx="1" pays="0,0,150000,175000,200000,225000"/>
+    <symbol id="P12" wild="N" scatter="N" mx="1" pays="0,0,150000,175000,200000,225000"/>
+    <symbol id="P13" wild="N" scatter="N" mx="1" pays="0,0,100000,125000,150000,175000"/>
+    <symbol id="P14" wild="N" scatter="N" mx="1" pays="0,0,100000,125000,150000,175000"/>
+    <symbol id="P15" wild="N" scatter="N" mx="1" pays="0,0,100000,125000,150000,175000"/>
+    <symbol id="P16" wild="N" scatter="N" mx="1" pays="0,0,100000,125000,150000,175000"/>
+    <symbol id="S" wild="N" scatter="Y" mx="1" pays="0,0,250000,500000,750000,1000000"/>
+    <symbol id="B" wild="N" scatter="Y" mx="1" pays="0,0,10000,0,0"/>
+    <symbol id="W" wild="Y" scatter="N" mx="1" pays="0,0,0,0,0"/>
+  </symbolGroup>
+  <lineGroup id="base" reels="6" rows="4">
+    <line id="1" rows="1,1,1,1,1,1"/>
+    <line id="2" rows="2,2,2,2,2,2"/>
+    <line id="3" rows="3,3,3,3,3,3"/>
+    <line id="4" rows="4,4,4,4,4,4"/>
+    <line id="5" rows="4,3,3,3,3,4"/>
+    <line id="6" rows="3,4,4,4,4,3"/>
+    <line id="7" rows="3,2,2,2,2,3"/>
+    <line id="8" rows="2,3,3,3,3,2"/>
+    <line id="9" rows="2,1,1,1,1,2"/>
+    <line id="10" rows="1,2,2,2,2,1"/>
+    <line id="11" rows="1,2,3,3,2,1"/>
+    <line id="12" rows="4,3,2,2,3,4"/>
+    <line id="13" rows="4,3,2,1,1,1"/>
+    <line id="14" rows="1,2,3,4,4,4"/>
+    <line id="15" rows="1,1,1,2,3,4"/>
+    <line id="16" rows="4,4,4,3,2,1"/>
+    <line id="17" rows="3,4,3,4,3,4"/>
+    <line id="18" rows="4,3,4,3,4,3"/>
+    <line id="19" rows="2,3,2,3,2,3"/>
+    <line id="20" rows="3,2,3,2,3,2"/>
+    <line id="21" rows="1,2,1,2,1,2"/>
+    <line id="22" rows="2,1,2,1,2,1"/>
+    <line id="23" rows="4,4,3,3,4,4"/>
+    <line id="24" rows="3,3,4,4,3,3"/>
+    <line id="25" rows="2,2,3,3,2,2"/>
+    <line id="26" rows="3,3,2,2,3,3"/>
+    <line id="27" rows="1,1,2,2,1,1"/>
+    <line id="28" rows="2,2,1,1,2,2"/>
+    <line id="29" rows="1,2,3,3,3,3"/>
+    <line id="30" rows="3,3,3,3,2,1"/>
+    <line id="31" rows="4,3,2,2,2,2"/>
+    <line id="32" rows="2,2,2,2,3,4"/>
+    <line id="33" rows="3,2,1,1,1,1"/>
+    <line id="34" rows="1,1,1,1,2,3"/>
+    <line id="35" rows="2,3,4,4,4,4"/>
+    <line id="36" rows="4,4,4,4,3,2"/>
+    <line id="37" rows="2,2,3,2,3,3"/>
+    <line id="38" rows="1,1,2,1,2,2"/>
+    <line id="39" rows="3,3,4,3,4,4"/>
+    <line id="40" rows="3,3,2,3,2,2"/>
+    <line id="41" rows="2,2,1,2,1,1"/>
+    <line id="42" rows="4,4,3,4,3,3"/>
+  </lineGroup>
+</math>
